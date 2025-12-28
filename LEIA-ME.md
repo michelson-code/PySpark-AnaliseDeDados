@@ -1,33 +1,3 @@
-Perfeito, esse script já é um bom “case” para um repo PySpark.[1]
-
-## 1. Nome e estrutura do projeto
-
-Sugestão de estrutura mínima:
-
-- `data/`
-  - `data_science_job_posts_2025.csv`
-- `src/`
-  - `jobs_analysis.py` (versão renomeada do `first_main.py`).[1]
-- `README.md`
-- `LICENSE` (MIT, como você escolheu para esse repo).  
-
-## 2. Código: pequenos ajustes
-
-Vale ajustar o script para:
-
-- Usar `if __name__ == "__main__":` e organizar em funções, por exemplo:
-  - `load_data(spark)`;
-  - `inspect_data(df)`;
-  - `salary_cleaning(df)`.  
-- Corrigir parênteses/indentação nos blocos `withColumn` (parece ter cortado no meio no arquivo).[1]
-
-Se quiser, manda a versão atual do `jobs_analysis.py` (ou me fala se posso reescrever a partir desse) que devolvo uma versão organizada em funções, pronta para subir.  
-
-## 3. README do PySpark pronto para usar
-
-Pode colocar assim no `README.md` do repositório PySpark:
-
-```markdown
 # PySpark – Análise de vagas de Data Science
 
 Repositório para estudos de **PySpark** usando um dataset de 944 vagas de trabalho em Data Science, com foco em leitura, limpeza e análise de dados em ambiente distribuído.[file:23]  

@@ -1,6 +1,6 @@
 # PySpark – Data Science Job Postings Analysis
 
-Repository for **PySpark** practice using a dataset of 944 Data Science job postings, focusing on data loading, cleaning, and exploratory analysis in a distributed environment.[file:23]  
+Repository for **PySpark** practice using a dataset of 944 Data Science job postings, focusing on data loading, cleaning, and exploratory analysis in a distributed environment. 
 
 ## Goals
 

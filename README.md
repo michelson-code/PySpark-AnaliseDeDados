@@ -34,7 +34,7 @@ Repositório para estudos de **PySpark** usando um dataset de 944 vagas de traba
    ```
    python src/jobs_analysis.py
    ```
-``` 
+
 Certifique-se de ter Java instalado e configurado caso o PySpark exija.
 
 

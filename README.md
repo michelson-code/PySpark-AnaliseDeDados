@@ -23,12 +23,12 @@ Repository for **PySpark** practice using a dataset of 944 Data Science job post
 ## How to run
 
 1. Install dependencies:
-   ```
+   ```bash
    pip install pyspark
    ```
 2. Make sure `data_science_job_posts_2025.csv` is placed inside the `data/` folder.
 3. Run the script:
-   ```
+   ```bash
    python src/jobs_analysis.py
    ```
 
@@ -63,12 +63,12 @@ Repositório para estudos de **PySpark** usando um dataset de 944 vagas de traba
 ## Como executar
 
 1. Instale as dependências:
-   ```
+   ```bash
    pip install pyspark
    ```
 2. Garanta que o arquivo `data_science_job_posts_2025.csv` está em `data/`.
 3. Execute o script:
-   ```
+   ```bash
    python src/jobs_analysis.py
    ```
 

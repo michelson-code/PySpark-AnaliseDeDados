@@ -7,7 +7,7 @@ Repository for **PySpark** practice using a dataset of 944 Data Science job post
 - Create a `SparkSession` and read CSV files with `header` and `inferSchema`.
 - Explore the schema, row count, and potential missing data.
 - Clean and parse the salary column (ranges: minimum and maximum).
-- Compute metrics such as number of openings per job title and average salary per job title.[file:23]  
+- Compute metrics such as number of openings per job title and average salary per job title.
 
 ## Main files
 
@@ -18,7 +18,7 @@ Repository for **PySpark** practice using a dataset of 944 Data Science job post
   - counts the number of records;
   - groups by `job_title` and counts the number of openings;
   - creates `salary_min` and `salary_max` from the `salary` column;
-  - computes `avg_salary` per job title using the mean of the salary range.[file:23]  
+  - computes `avg_salary` per job title using the mean of the salary range.
 
 ## How to run
 
@@ -32,7 +32,7 @@ Repository for **PySpark** practice using a dataset of 944 Data Science job post
    python src/jobs_analysis.py
    ```
 
-This will start a Spark session, load the dataset, and print the main statistics and aggregations directly to the console.[file:23]  
+This will start a Spark session, load the dataset, and print the main statistics and aggregations directly to the console.
 
 ## License
 

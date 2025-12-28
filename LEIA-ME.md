@@ -37,4 +37,4 @@ Será aberta uma sessão Spark, o dataset será lido e as principais estatístic
 ## Licença
 
 Este projeto está licenciado sob os termos da licença MIT.
-```
+
